@@ -9,14 +9,14 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #FFFFFF;
-    background-color: #4eb5f1;
+    background-color: aquamarine;
     text-align: center;
     transition: all 0.2s;
     border: none;
 }
 
 .default:hover {
-    background-color: #4095c6;
+    background-color: aqua;
 }
 
 .default:focus {
