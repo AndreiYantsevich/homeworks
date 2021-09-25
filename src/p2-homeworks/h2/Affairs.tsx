@@ -7,7 +7,6 @@ type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
     setFilter: (filter: FilterType) => void
     deleteAffairCallback: (id: number) => void
-    filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
