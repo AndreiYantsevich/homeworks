@@ -11,6 +11,9 @@ const Request: FC = () => {
             .then((res) => {
                 setState(res.data);
             })
+            .catch((error) => {
+                console.log(error);
+            })
     }
     return <div> {JSON.stringify(state)}
         <div>
