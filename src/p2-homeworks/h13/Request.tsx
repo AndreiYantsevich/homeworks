@@ -12,7 +12,7 @@ const Request: FC = () => {
                 setState(res.data);
             })
             .catch((error) => {
-                console.log(error);
+                setState(error);
             })
     }
     return <div> {JSON.stringify(state)}
